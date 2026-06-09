@@ -22,5 +22,5 @@ Project features:
 - HTML image map
 - footer with author information on every page
 
-Author: Daniil Shtorm
-Student number: S35236
+Author: Albina Obodets
+Student number: S33235
