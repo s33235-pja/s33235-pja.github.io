@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Gallery | Risk of Rain 2
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main-content">
+   Skip to content
+  </a>
+  <header class="topbar">
+   <nav class="nav">
+    <a class="brand" href="index.html">
+     RISK
+     <span>
+      OF RAIN 2
+     </span>
+    </a>
+    <div class="menu">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="survivors.html">
+      Survivors
+     </a>
+     <a href="artifacts.html">
+      Artifacts
+     </a>
+     <a href="items.html">
+      Items
+     </a>
+     <a aria-current="page" class="active" href="gallery.html">
+      Gallery
+     </a>
+    </div>
+   </nav>
+  </header>
+  <main id="main-content">
+   <section class="page-head">
+    <div class="section">
+     <p class="eyebrow">
+      Screenshots and stage map
+     </p>
+     <h1 class="page-title">
+      Gal
+      <span>
+       lery
+      </span>
+     </h1>
+     <p class="lead">
+      This page includes external screenshots and an HTML image map with clickable areas.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <h2>
+     Game screenshots
+    </h2>
+    <p class="notice gallery-help">Click any screenshot to open it in full-screen view. Use arrows, keyboard keys or Esc to navigate.</p>
+    <div class="grid media-grid">
+     <div class="shot big lightbox-trigger" role="button" tabindex="0" data-full="https://assets.2k.com/1a6ngf98576c/60zi2fyQZypESrNVQkfKRA/6b88d34ed1a3a92bf0f5c853f63a0560/ror2ss05-768x432.jpg" data-caption="Titanic Plains - Alien levels" style="background-image:url('https://assets.2k.com/1a6ngf98576c/60zi2fyQZypESrNVQkfKRA/6b88d34ed1a3a92bf0f5c853f63a0560/ror2ss05-768x432.jpg')">
+      <p>
+       Titanic Plains
+      </p>
+     </div>
+     <div class="shot lightbox-trigger" role="button" tabindex="0" data-full="https://assets.2k.com/1a6ngf98576c/6zbjAyc7hPGGCh6ACGHiG7/945b8cf5070abdf0c11f0f72a9c87060/ror2ss04-768x432.jpg" data-caption="Boss Encounters - Teleporter event" style="background-image:url('https://assets.2k.com/1a6ngf98576c/6zbjAyc7hPGGCh6ACGHiG7/945b8cf5070abdf0c11f0f72a9c87060/ror2ss04-768x432.jpg')">
+      <p>
+       Boss Encounters
+      </p>
+     </div>
+     <div class="shot lightbox-trigger" role="button" tabindex="0" data-full="https://assets.2k.com/1a6ngf98576c/63GltSrTi48vdhySPsuGP9/0fd98209a2336e684f8264e0e9fa1af7/ror2ss03-768x432.jpg" data-caption="Multiplayer Run - Co-op chaos" style="background-image:url('https://assets.2k.com/1a6ngf98576c/63GltSrTi48vdhySPsuGP9/0fd98209a2336e684f8264e0e9fa1af7/ror2ss03-768x432.jpg')">
+      <p>
+       Multiplayer Run
+      </p>
+     </div>
+     <div class="shot lightbox-trigger" role="button" tabindex="0" data-full="https://assets.2k.com/1a6ngf98576c/1GG51m8tSoVVDiU5qMBCbq/a4fd7025628404cc146779b75ab4e92c/RoR_2.png" data-caption="Official Artwork - Risk of Rain 2" style="background-image:url('https://assets.2k.com/1a6ngf98576c/1GG51m8tSoVVDiU5qMBCbq/a4fd7025628404cc146779b75ab4e92c/RoR_2.png')">
+      <p>
+       Official Artwork
+      </p>
+     </div>
+     <div class="card">
+      <h3>
+       Note about images
+      </h3>
+      <p>
+       This project uses both local self-made graphics and external official media links. This satisfies the local image and external URL image requirement.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <h2>
+     HTML map
+    </h2>
+    <p class="notice">
+     Click the moon, survivor or mountains on the image below. This demonstrates the required &lt;map&gt; and &lt;area&gt; elements.
+    </p>
+    <div class="map-wrap">
+     <img alt="Clickable alien planet map" src="assets/local/planet.svg" usemap="#ror-map"/>
+     <map name="ror-map">
+      <area alt="Moon link to artifacts" coords="860,150,115" href="artifacts.html" shape="circle"/>
+      <area alt="Survivor link" coords="335,400,430,510" href="survivors.html" shape="rect"/>
+      <area alt="Mountain link to items" coords="140,510,250,330,315,520" href="items.html" shape="poly"/>
+     </map>
+    </div>
+   </section>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Full screen gallery viewer">
+   <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+   <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous image">‹</button>
+   <figure class="lightbox-frame">
+    <img id="lightbox-image" alt="Full screen Risk of Rain 2 screenshot" src=""/>
+    <figcaption>
+     <span id="lightbox-caption">Screenshot</span>
+     <strong id="lightbox-count">1 / 4</strong>
+    </figcaption>
+   </figure>
+   <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next image">›</button>
+  </div>
+  </main>
+  <footer>
+   Author: Albina Obodets | Student number: S33235 | Static HTML/CSS project
+  </footer>
+
+  <script>
+   const galleryShots = Array.from(document.querySelectorAll('.lightbox-trigger'));
+   const lightbox = document.getElementById('lightbox');
+   const lightboxImage = document.getElementById('lightbox-image');
+   const lightboxCaption = document.getElementById('lightbox-caption');
+   const lightboxCount = document.getElementById('lightbox-count');
+   const closeBtn = document.querySelector('.lightbox-close');
+   const prevBtn = document.querySelector('.lightbox-prev');
+   const nextBtn = document.querySelector('.lightbox-next');
+   let currentIndex = 0;
+
+   function showImage(index) {
+    currentIndex = (index + galleryShots.length) % galleryShots.length;
+    const selected = galleryShots[currentIndex];
+    lightboxImage.src = selected.dataset.full;
+    lightboxCaption.textContent = selected.dataset.caption;
+    lightboxCount.textContent = (currentIndex + 1) + ' / ' + galleryShots.length;
+   }
+
+   function openLightbox(index) {
+    showImage(index);
+    lightbox.classList.add('is-open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('no-scroll');
+    closeBtn.focus();
+   }
+
+   function closeLightbox() {
+    lightbox.classList.remove('is-open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('no-scroll');
+    lightboxImage.src = '';
+    galleryShots[currentIndex].focus();
+   }
+
+   galleryShots.forEach((shot, index) => {
+    shot.addEventListener('click', () => openLightbox(index));
+    shot.addEventListener('keydown', event => {
+     if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openLightbox(index);
+     }
+    });
+   });
+
+   closeBtn.addEventListener('click', closeLightbox);
+   prevBtn.addEventListener('click', () => showImage(currentIndex - 1));
+   nextBtn.addEventListener('click', () => showImage(currentIndex + 1));
+
+   lightbox.addEventListener('click', event => {
+    if (event.target === lightbox) closeLightbox();
+   });
+
+   document.addEventListener('keydown', event => {
+    if (!lightbox.classList.contains('is-open')) return;
+    if (event.key === 'Escape') closeLightbox();
+    if (event.key === 'ArrowLeft') showImage(currentIndex - 1);
+    if (event.key === 'ArrowRight') showImage(currentIndex + 1);
+   });
+  </script>
+ </body>
+</html>
